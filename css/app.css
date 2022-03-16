@@ -1,0 +1,36 @@
+body {
+    font-family: Inter, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+small {
+    font-family: Inter, sans-serif;
+}
+
+.wrapper {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    width: 100%;
+    max-width: 335px;
+    height: 335px;
+}
+
+.profile__header {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+
+.subheading {
+    font-family: Caveat, sans-serif;
+}
