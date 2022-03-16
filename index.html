@@ -69,7 +69,8 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col" v-for="project in projects">
                     <div class="card bg-dark">
-                        <img :src="project.project_icon" class="card-img-top m-4" :alt="project.project_title">
+                        <img :src="project.project_icon" class="card-img-top pt-4 pb-4 bg-secondary"
+                            :alt="project.project_title">
                         <div class="card-body">
                             <h6 class="card-title">
                                 <a :href="project.url" class="text-capitalize text-white text-decoration-none fw-bold"
