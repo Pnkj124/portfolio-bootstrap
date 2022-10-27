@@ -4,7 +4,7 @@ var app = new Vue({
         projects: [],
     },
     mounted() {
-        fetch('https://gh-pinned-repos.egoist.sh/?username=Pnkj124')
+        fetch('https://gh-pinned-repos.egoist.dev/?username=Pnkj124')
             .then(res => res.json())
             .then(res => {
                 for (const repo of res) {
